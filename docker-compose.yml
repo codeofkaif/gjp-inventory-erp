@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  erp-app:
+    build: .
+    container_name: gjp-dryfruits-erp
+    ports:
+      - "80:80"
+    restart: unless-stopped
